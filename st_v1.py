@@ -7,12 +7,9 @@ from datetime import datetime
 # 페이지 설정
 st.set_page_config(
     page_title="DSHI HY",
-    page_icon="assets/DSHI_1.jpg",  # 페이지 설정에 로고 추가
     layout="wide"
 )
 
-# 사이드바에 로고 추가
-st.sidebar.image("assets/DSHI.jpg", use_container_width=True)
 
 # 제목
 st.title("대만공항 함양공장 PKG3 생산현황")
